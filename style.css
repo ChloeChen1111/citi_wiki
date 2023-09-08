@@ -1,10 +1,10 @@
 html {
   box-sizing: border-box;
-  background: #ffc600;
+  background: #438fc6;
   font-family: 'Comfortaa', cursive;
   font-size: 20px;
   font-weight: 200;
-  color: #757575;
+  color: #000000;
 }
 
 *, *:before, *:after {
@@ -19,11 +19,11 @@ input {
 .search-form {
   max-width: 450px;
   margin: 50px auto;
-  color: #757575;
+  color: #000000;
 }
 
 input.search {
-  color: #757575;
+  color: #000000;
   margin: 0;
   text-align: center;
   outline: 0;
@@ -73,19 +73,19 @@ span.population {
 }
 
 .hl {
-  background: #ffc600;
+  background: #438fc6;
 }
 
 .logo-name {
   align-items: center;
   text-align: center;
   font-family: 'Comfortaa', cursive;
-  color: #757575ba;
+  color: #000000ba;
   font-size: 80pt;
 }
 
 .visit-link {
-  color: #ffc600;
+  color: #438fc6;
 }
 
 #github-logo {
