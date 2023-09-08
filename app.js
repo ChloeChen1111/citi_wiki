@@ -30,7 +30,7 @@ function displayMatches() {
       const stateForLink = place.state.split(" ").join("_");
       return `
         <li>
-        <a class='visit-link' href='https://en.wikipedia.org/wiki/${cityForLink},_${stateForLink}'>Visit</a>
+        <a class='visit-link' target='_blank' href='https://en.wikipedia.org/wiki/${cityForLink},_${stateForLink}'>Visit</a>
         <span class='name'>${place.city}, ${place.state}</span>
         <span class='population'>${place.population}</span>
         </li>
